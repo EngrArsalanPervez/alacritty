@@ -1,10 +1,23 @@
 # alacritty
 alacritty.toml
 
+# Themes
+
+```bash
+# We use Alacritty's default Linux config directory as our storage location here.
+mkdir -p ~/.config/alacritty/themes
+git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+```
+
 # alacritty.toml
 
 ```bash
 # nvim ~/.config/alacritty/alacritty.toml
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/{theme}.toml"
+]
 
 [window]
 startup_mode = "Maximized"
