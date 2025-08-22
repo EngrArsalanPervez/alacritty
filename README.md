@@ -19,7 +19,8 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 [general]
 import = [
     # "~/.config/alacritty/themes/themes/{theme}.toml"
-    "~/.config/alacritty/themes/themes/ubuntu.toml"
+    # "~/.config/alacritty/themes/themes/ubuntu.toml"
+    "~/.config/alacritty/themes/themes/falcon.toml"
 ]
 
 [window]
